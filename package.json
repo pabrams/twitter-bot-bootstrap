@@ -1,6 +1,6 @@
 {
-  "name": "twitter-bot-bootstrap",
-  "version": "0.2.1",
+  "name": "pabrams-twitter-bot",
+  "version": "0.0.1",
   "description": "[![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](http://standardjs.com/) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](http://opensource.org/licenses/MIT)",
   "main": "index.js",
   "scripts": {
@@ -15,21 +15,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/spences10/twitter-bot-bootstrap.git"
+    "url": "git+https://github.com/pabrams/twitter-bot-bootstrap.git"
   },
-  "keywords": [ "twitter", "bot", "bootstrap" ],
-  "author": "Scott Spence <spences10apps@gmail.com> (https://blog.scottspence.me/)",
+  "keywords": [
+    "twitter",
+    "bot",
+    "bootstrap"
+  ],
+  "author": "Paul Abrams <john.paul.abrams@gmail.com> modified code originally written by Scott Spence <spences10apps@gmail.com> (https://blog.scottspence.me/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/spences10/twitter-bot-bootstrap/issues"
+    "url": "https://github.com/pabrams/twitter-bot-bootstrap/issues"
   },
-  "homepage": "https://github.com/spences10/twitter-bot-bootstrap#readme",
+  "homepage": "https://github.com/pabrams/twitter-bot-bootstrap#readme",
   "devDependencies": {},
   "dependencies": {
-    "dotenv": "4.0.0",
-    "snyk": "1.40.2",
-    "twit": "2.2.9",
-    "unique-random-array": "1.0.0"
+    "debug": "^3.0.1",
+    "dotenv": "^4.0.0",
+    "snyk": "^1.40.2",
+    "twit": "^2.2.9",
+    "unique-random-array": "^1.0.0"
   },
   "snyk": true
 }

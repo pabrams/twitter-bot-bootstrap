@@ -30,7 +30,7 @@ const retweet = () => {
         try {
           retweetId = data.statuses[rando].id_str
         } catch (e) {
-          console.log('ERRORDERP: Cannot assign retweeID')
+          console.log('ERRORDERP: Cannot assign retweeID; message: ' + e.message + ' data.statuses.length: ' + data.statuses.length );
           return
         }
 
